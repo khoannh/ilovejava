@@ -1,4 +1,4 @@
-![Java](https://img.shields.io/badge/-Java_Core-007396?style=flat-square&logo=openjdk&logoColor=white)
+[![Java](https://img.shields.io/badge/-Java_Core-007396?style=flat-square&logo=openjdk&logoColor=white)](./javacore)
 ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 </br>
 </br>
