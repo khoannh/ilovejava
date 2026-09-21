@@ -1,0 +1,38 @@
+Variable is a location in memory used to store data.
+
+2 things we need to know:
+- Declaring variable: assigning a name to variable with its data type.
+- Initializing variable: assigning a specific value to variable.
+
+# Declaring variable #
+Syntax: `datatype varname;`
+
+For example: `int age`, `String name` 
+
+**_Naming convention:_**
+- Begin with letter, symbol ( $ ), underscore ( _ ). `Ex: age, $goood, _hello => TRUE, house@haha, like* => FALSE` 
+- Variable names can contain numbers but cannot start with them. `Ex: age4211 => TRUE, 4age211 => FALSE`
+- Variable names can begin with underscore but not true if only have it `Ex: _hello => TRUE, _ => FALSE`
+- Do not use Java keyword for variable name like: public, class, interface. `Ex: public, for, static => FALSE`
+
+### Multiple declaring ###
+Declaring multiple variable in the same line. Only use when same data type.
+```
+- String s3 = "yes", s4 = "no"; // ĐÚNG, KHAI BÁO NHIỀU BIẾN CÙNG LÚC (phải cùng kiểu mới làm được)
+- int num, String value; // SAI, DOES NOT COMPILE (vì khác kiểu)
+- int i1, i2, i3 = 0; // ĐÚNG, cả 3 biến đều được khai báo nhưng chỉ có i3 là có giá trị là 0;
+- boolean b1, b2; // ĐÚNG
+- String s1 = "1", s2; // ĐÚNG
+- double d1, double d2; // SAI, 1 là bỏ chữ double thứ 2 đi hoặc 2 là thay dấu phẩy ở giữa thành ;
+- int i1; int i2; // ĐÚNG
+- int i3; i4; // SAI, 1 là thay dấu ; ở giữa thành dấu , hoặc 2 là thêm chữ int trước i4.
+```
+
+# Initializing variable #
+Syntax: `varname = value;`
+
+For example: `age = 10`, `name = Khoan`
+
+
+# Type of variables #
+- 

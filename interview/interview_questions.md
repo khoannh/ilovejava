@@ -15,9 +15,9 @@
 `What is the difference between final, finally, and finalize()?`
 
 `Answer: `
-- final is a keyword used to restrict changes. A final variable cannot be reassigned, a final method cannot be overridden, and a final class cannot be inherited.
-- finally is a block used in exception handling that always executes, whether an exception occurs or not, usually for cleanup tasks.
-- finalize() was a method called by the Garbage Collector before destroying an object, but it has been deprecated since Java 9 and is no longer recommended.
+- **final** is a keyword used to restrict changes. A final variable cannot be reassigned, a final method cannot be overridden, and a final class cannot be inherited.
+- **finally** is a block used in exception handling that always executes, whether an exception occurs or not, usually for cleanup tasks.
+- **finalize()** was a method called by the Garbage Collector before destroying an object, but it has been deprecated since Java 9 and is no longer recommended.
 
 ---
 
@@ -58,3 +58,7 @@
 - **Method overriding** allows a child class to provide specific implementation for a method already defined in íts parent class, resolved at runtime.
 
 ---
+
+`How to prevent overriding?`
+
+`Answer: `By declaring the method as final. 
